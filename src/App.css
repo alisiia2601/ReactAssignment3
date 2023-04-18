@@ -1,3 +1,16 @@
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-81xl: 100px;
+
+  /* Colors */
+  --color-whitesmoke: #f6f6f6;
+  --color-crimson: #fe3872;
+  --color-silver: #c4c4c4;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,13 +37,32 @@ li a:hover {
 
 .center {
   text-align: center;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  position: absolute;
+  left: 0;
+  width: 400px;
+  height: 140px;
+  
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-crimson);
+  font-family: var(--font-roboto);
 }
+
 
 #container {
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
   padding: 10px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-crimson);
+  font-family: var(--font-roboto);
+  
 }
 
 .textUpper {
@@ -50,3 +82,4 @@ li a:hover {
   text-align: center;
   margin-top: 10px;
 }
+
